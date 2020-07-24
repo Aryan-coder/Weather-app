@@ -8,14 +8,14 @@ body{
     padding-right: 30px;
 }
 
-img{
+imgz{
     position: absolute;
 }
 
 .container{
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column;z
 }
 
 .form{

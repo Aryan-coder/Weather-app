@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="heading">Weather-app</div>
+    <div class="container nextline">
+        <div class="search-bar inline">
+            <input type='text' id="text" placeholder="enter city name">
+            <button onclick="getWeather()"><i class="material-icons">search</i></button>
+        </div>
+        <div class="main">
+        <div class="sameline">
+            <div class="area-name">Saharanpur<span class="country">IN</span></div>
+            <div class="gif">
+                <img src="image/sunny.gif">
+            </div>
+        </div>
+        <div class="sameline">
+            <div class="temp nextline">
+                 temprature
+            <div class="inline">
+                <div id="temp">15</div>
+                <div class="degree">&deg;</div>
+                <div class="calcius">C</div>
+            </div>    
+            </div>
+            <div class="weather">
+                weather
+                <div id="weather">cloudy</div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

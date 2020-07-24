@@ -1,0 +1,166 @@
+body{
+    background-image: url('https://i1.wp.com/sociallover.net/wp-content/uploads/2019/04/sea-wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sameline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nextline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading{
+    padding: 10px;
+    margin: 0 auto;
+    width: max-content;
+    font-size: xx-large;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.651);
+    margin: auto;
+    width: 60%;
+    height: 100%;
+    padding: 30px 70px;
+}
+
+.area-name{
+    width: 50%;
+    height: max-content;
+    font-size: xx-large;
+    color: wheat;
+}
+
+.country{
+    color: rgb(158, 115, 29);
+    margin: 5px;
+}
+
+.temp{
+    font-size: x-large;
+    color: yellowgreen;
+    width: 50%;
+    height: max-content;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#temp{
+    margin: 20px 0;
+    color: white;
+   font-weight: 600;
+   font-size: 50px;
+}
+
+.degree{
+    font-weight: 600;
+    color: white;
+    margin: 0 2px;
+}
+
+.calcius{
+    color: white;
+    font-weight: 600;
+}
+
+.weather{
+    font-size: x-large;
+    color: yellowgreen;
+    width: 50%;
+    height: max-content;
+    margin-top: -30px;
+}
+
+#weather{
+    margin: 20px 0;
+    color: white;
+   font-weight: 600;
+   font-size: 50px;
+}
+
+.search-bar{
+    width: max-content;
+    height: max-content;
+    margin: auto;
+}
+
+.search-bar input{
+    width: 200px;
+    height: 30px;
+    border-radius: 100px;
+    padding-left: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+.search-bar button{
+    outline: none;
+    width: 40px;
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    border-width: 0px;
+    border-radius: 0px 100px 100px 0px;
+}
+
+.gif{
+    width: 50%;
+    height: max-content;
+    margin-top: 50px;
+}
+
+.gif img{
+    width: 150px;
+    height: 150px;
+}
+
+@media(max-width: 800px){
+
+    .sameline{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .area-name{
+        opacity: 0;
+    }
+
+    .temp{
+        text-align: center;
+    }
+
+    .weather{
+        text-align: center;
+    }
+
+    .inline{
+        margin: 0 auto;
+    }
+}
+
+.err{
+    font-size: 50px;
+    text-align: center;
+    margin: 150px auto;
+}
